@@ -1,0 +1,14 @@
+[
+    {
+      "cantidadNoches": 3,
+      "tipoHabitacion": "estandar"
+    },
+    {
+      "cantidadNoches": 4,
+      "tipoHabitacion": "deluxe"
+    },
+    {
+      "cantidadNoches": 2,
+      "tipoHabitacion": "suite"
+    }
+  ]

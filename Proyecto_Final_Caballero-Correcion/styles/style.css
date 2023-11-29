@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para el formulario */
+.form {
+  background-color: #cacaca;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #e4e1e1;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la lista de reservas */
+.reservas {
+  margin-top: 20px;
+}
+
+#costo-total{
+  font-weight: bold;
+  color: fff;
+  background-color: 000;
+}
+
+#cantidades-por-tipo{
+  font-weight: bold;
+  color: fff;
+  background-color: 000;
+}
+
+
+/* Estilos para el mensaje de error */
+.error {
+  color: #d9534f;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Estilos para el mensaje de éxito */
+.exito {
+  color: #314ce4;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Estilos para la notificación */
+.notificacion {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Texto blanco */
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Inicialmente oculto */
+  margin-top: 10px;
+}
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}

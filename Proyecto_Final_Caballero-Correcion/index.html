@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservas de Hotel</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <h1>Reservas de Hotel</h1>
+  <div class="container">
+    <div class="form">
+      <label for="cantidad-noches">Cantidad de noches:</label>
+      <input type="number" id="cantidad-noches" required>
+      
+      <label for="tipo-habitacion">Tipo de habitación:</label>
+      <select id="tipo-habitacion">
+        <option value="estandar">Estandar</option>
+        <option value="deluxe">Deluxe</option>
+        <option value="suite">Suite</option>
+      </select>
+
+      <button id="boton-reservar">Reservar</button>
+      <button id="boton-limpiar">Limpiar Historial</button>
+    </div>
+
+    <p class="exito">Haz una reserva o limpia el historial.</p>
+    
+    <div id="notificacion" class="notificacion"></div>
+
+    <p id="costo-total">Costo total de todas las reservas: $0MXN</p>
+
+    <p id="cantidades-por-tipo">Cantidad de reservas</p>
+    
+    <ul id="lista-reservas" class="reservas"></ul>
+
+  </div>
+
+  <script src="./scripts/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
